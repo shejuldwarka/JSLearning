@@ -1,6 +1,5 @@
-console.log("Hello Word");
-console.log("My name is dwarka");
+var firstName="dwarka";
+var lastName=" shejul";
 
-
- 
-
+var result= firstName+lastName;
+console.log(`contacted string is ${result}`);
