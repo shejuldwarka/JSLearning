@@ -1,36 +1,67 @@
-console.log('-------------------STEP1-----------------');
-
-var greet= 'Hey you are doing good, keep it up ';
-
-var lengthGreet=greet.length;
+var string = "     Hey you are  doing good,keep it up     ";
 
 
-console.log('length of string is:'  , greet);
-
-console.log('------------------STEP2-------------------');
-
-var greet= 'Hey you are doing good, keep it up ';
-
-var lengthGreet=greet.length;
+   function stringHandsOn(){
+    console.log(`-----------STEP1----------------------------------------`);
+console.log(`   Given string is:    Hey you are doing good, keep it up     `);
 
 
-console.log('length of string is:' ,lengthGreet);
-
-console.log('-----------------STEP3------------------------');
-
-var greet= 'Hey you are doing good, keep it up ';
-
-var lengthGreet=greet.length;
-
-console.log('length of string is:' ,lengthGreet);
+console.log(`--------------------STEP2---------------------------------------`);
+var result = string.length
+console.log(`    Length of string is : ${result}     `);
+console.log(`-----------------------------STEP3-----------------------------`);
+var lending=string.trim();
+var newString=lending.length;
+console.log(`Removing leading and trailing extra spaces of string:${lending} ,and it's length is:${newString}`);
 
 
-var chartArt0 = greet.charAt(0);
-console.log(`char at 0th index charAt0`);
+console.log(`---------------------STEP4------------------------------------------------------`);
+
+var resultTrimstart=string.trimStart();
+var trimStartLength = resultTrimstart.length; 
+var startSpaces = string.length - trimStartLength;
+var resultTrimEnd = string.trimEnd();
+var trimEndLength = resultTrimEnd.length; 
+var endSpaces = string.length - trimEndLength;
+var count=startSpaces+endSpaces;
+console.log(`Total number extra spaces count that is remove step 3:${count}`);
+
+console.log(`--------------------------------STEP5-----------------------------`);
+var first=lending.charAt(0);
+var last=lending.charAt(newString-1);
+console.log(`first  charater after trim:${first}, Last  charater after trim: ${last}`);
+
+console.log(`--------------------------------------------------STEP6----------------------------`);
+var result =lending.split(' ');
+var words = result.length;
+console.log(`Total number of words are : ${words}`);
+
+console.log(`--------------------------------STEP7--------------------------------------------`);
+var result=lending.indexOf("good");
+console.log(`Index of ${"good"} word from string ${result}`);
+console.log();
+
+console.log(`------------------------------------STEP8-------------------------------------`);
+var result=lending.slice(22);
+console.log(`substring starting from index 22: ${result}`);
+
+console.log(`-----------------------------------STEP9------------------------`);
+var end=lending.endsWith(`up`);
+console.log(`String end with word ${'up'}: ${end}`);
+console.log(`------------------------------------STEP10--------------------------------`);
+var start=lending.startsWith('Hey');
+console.log(`String start with word ${'Hey'}:${start}`);
 
 
+}
 
 
+stringHandsOn();
 
+console.log(`----------`);
+var str ="I am UI Developer";
+str=str.includes("UI");
+console.log(str);
 
- 
+var words=str.split("UI");
+console.log(words);

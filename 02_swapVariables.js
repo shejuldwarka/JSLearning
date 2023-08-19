@@ -24,6 +24,14 @@ num3=temp;
 
 console.log('After Swapping', 'num1-',num1=200, 'num2-', num2=300,'num3-',num3=100);
 
+var num1=100;
+var num2=200;
+//output num1 = 200,num2=100
+var temp=num1;
+num1=num2;
+num2=temp;
+console.log("after swap","num1-",num1,"num2-",num2);
+
 
 
  

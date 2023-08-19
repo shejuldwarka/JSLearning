@@ -1,0 +1,6 @@
+//use module style to organize the code
+type of module
+1. core modules(built-in);
+2. local module
+3. third party modules
+

@@ -48,10 +48,22 @@ function show(){ //no argument no return
     bankDetails("HDFC Bank",2345678954,"pune",631202,"Open");
 
   
-  
+var num=0/0;
+console.log(num);
 
+var a=20;
+var b='20';
+var ab=20/'10';
+console.log(ab);
 
+var pin="202"
+console.log(typeof pin);
 
+var n=+pin;
+console.log(typeof n);
+
+var result=+pin;
+console.log(result);
 
 
 
