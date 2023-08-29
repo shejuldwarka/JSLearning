@@ -48,7 +48,7 @@ function addition(arg1, arg2, arg3){
 
     var result = arg1 + arg2 + arg3;
 
-    return result;
+   return result;
 
 }
 
@@ -58,6 +58,10 @@ console.log('Result is ', addition(10, 23, 456));
 
  var res = addition(-56, 239, 677);
  console.log('Result is', addition( -56, 239, 677));
+var result=addition('Gk','pune',89);
+console.log('Result is',result);
+
+
 
  console.log(`____________`);
  const arrayFruits=["Banana","Orange","Apple","Mango","Water Melon"];
@@ -102,3 +106,30 @@ console.log('Result is ', addition(10, 23, 456));
  console.log(` count the words: ${words}`);
 
  
+console.log(`-------------------------------`);
+
+function swap(arg1,arg2){
+
+var arg1=2;
+var arg2=4;
+console.log(arg1,arg2);
+}
+swap(2,4)
+
+console.log(`___________________________________________________________`);
+
+var num1 =100;
+var num2=200;
+console.log('Before swapping','num1-',num1,'num2',num2);
+
+temp=num1;
+num1=num2;
+num2=temp;
+
+console.log('Before swapping','num1-',num1,'num2',num2);
+
+
+
+
+
+

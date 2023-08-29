@@ -133,14 +133,16 @@ var strOperation=function(){
 var str="JS the most popular language of internet"
 var strLength=str.length;
 console.log(`Find total length in string is : ${strLength}`);
-var strCharAt=str.charAt(6);
-console.log(`char at 6th index of :${strCharAt}`);
+var charAt=str.charAt(6);
+console.log(` Character at indext 6 is: ${charAt}`);
+var charAt11=str.charAt(11);
+console.log(` Character at indext 6 is: ${charAt11}`);
+
 
 
 }
 strOperation();
 
-strOperation();
 
 
 

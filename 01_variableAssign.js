@@ -10,7 +10,7 @@
  console.log(myFullName);
  
  var myLove; // declaration
-myLove = "I love only JS"
+myLove = "I love only JS"// Initiation
 console.log(myLove);
 
  

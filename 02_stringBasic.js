@@ -16,9 +16,21 @@ var lengthGreet=greet.length;
 console.log('Total No. Of Character In Hobbies:',lengthGreet);
 
 
+console.log(`___________________   StringHandson..Revision____________________________`);
+
+function stringBasics(){
+console.log("My dream company is ", "HCL");
+
+console.log("My Hobbies are:","watching Tv " );
+console.log("My Hobbies are:","Swimming " );
+console.log("My Hobbies are:","Reading" );
 
 
 
+
+}
+
+stringBasics();
 
 
 

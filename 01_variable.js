@@ -53,3 +53,38 @@ console.log('After swap is :',"name1",name1,'name2',name2);
 
 
 console.log("");
+
+
+console.log(`__"""""""""""""""""""""""""""""""""""""  A -First ---"""""""""""""""""""""""""""""""""""`);
+
+var myfullName // variable declaration
+console.log(myFullName);
+var  firstLastName= "Dwarka Shejul"//Initialization
+console.log(firstLastName);
+var myFullName='Dwarka Gnaesh Shejul'//updated
+console.log(myFullName);
+console.log(`---------------------------------------`);
+var myLove ='I love only Js'//declaration & initialization
+console.log(`----------------------------------`);
+
+var firstName= 'Dwarka' //variable declartion & Initialization
+console.log(firstName);
+
+var lastName='Shejul'// declartion & initializtion
+console.log(lastName);
+
+var age=32// declartion & initialization
+ console.log(age);
+ 
+ var address='pune' //declaration  & initialization
+
+ console.log(address);
+
+ var pincode= " 6790777" // declartion & initialization
+ console.log(pincode);
+
+ var gender ='Female' //declaration & initialization
+ console.log(gender);
+
+ var isMarried='False' //declaration & initialization
+ console.log(isMarried);

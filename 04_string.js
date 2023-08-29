@@ -143,5 +143,144 @@ console.log(`My Hobbies Is :${hobbies}`);
 var lengthhobbies=hobbies.length;
 console.log(` sum total of character is: ${lengthhobbies}`);
 
+console.log(`______________________________________`);
+
+
+
+var greet ="     Good Morning     ";
+var resultTrimEnd=greet.trimEnd();
+var trimEndLength=resultTrimEnd.length;
+var endSpaces=greet.length-trimEndLength;
+console.log(` trim string length is : ${endSpaces}`);
+
+
+console.log(`____________________________________________________________`);
+
+var resultTrimStart=greet.trimStart();
+var trimStartlength=resultTrimStart.length;
+var startSpaces=greet.length-trimStartlength;
+console.log(` Start Spaces is : ${startSpaces}`);
+
+console.log(`-----------Replace Method--------`);
+var greet="Hey Good Morning Virat Dude";
+var greet=greet.replace( ' ',' - ');
+console.log(` replace: ${greet}`);
+
+console.log(`----------------------------------`);
+greet=greet.toLowerCase();
+console.log(greet);
+console.log(`-------------------------------------`);
+
+
+var result= greet.startsWith("hey")
+
+console.log(result);
+var result= greet.endsWith("dude");
+console.log(result);
+
+
+console.log(`_______________________________`);
+
+
+
+
+function stringBasics(){
+console.log(` My dream Company Name is :" HCL "`);
+
+var hobbies1=" watching Tv";
+var hobbies2=" Swimming";
+var hobbies3=" Reading";
+console.log(` Hobbies1 is=> ${hobbies1} ,hobbies is 2 is=> ${hobbies2}, Hobbies 3 is=> ${hobbies3}`);
+
+}
+stringBasics();
+
+ var result= 'hobbies1' +'hobbies2'+ 'hobbies3';
+var words= result.length;
+ console.log(`result is ${words} `);
+
+ console.log(`________________________________`);
+
+
+
+
+
+
+
+
+
+
+function stringHandSon(){
+
+    var str="   Hey you are doing good, keep it up      "
+    console.log(`___________________STEP1_________________`);
+console.log(`Given string is : ${str}`);
+
+var lengthStr=str.length;
+console.log(` String Length is : ${lengthStr}`);
+
+console.log(`________________________STEP3_____________________________`);
+
+var leading=str.trim();
+var newStr=leading.length;
+console.log(` reamoving leading & trailing extra spaces of string is ${leading}, and is length is :${newStr}`);
+
+console.log(`___________________________________________________________________________`);
+var leading=str.trim();
+var newStr=leading.length;
+console.log(`Removing leading and trailing extra spaces of string:${leading} ,and it's length is:${newStr}`);
+console.log(`----------------------------------------------------------------------------------------------`);
+
+var resultTrimstart=str.trimStart();
+var trimStartLength = resultTrimstart.length; 
+var startSpaces = str.length - trimStartLength;
+var resultTrimEnd = str.trimEnd();
+var trimEndLength = resultTrimEnd.length; 
+var endSpaces = str.length - trimEndLength;
+var count=startSpaces+endSpaces;
+console.log(`Total number extra spaces count that is remove step 3:${count}`);
+
+console.log(`___________________________________________`);
+var first=leading.charAt(0);
+var last=leading.charAt(newStr-1);
+
+console.log(`First char after trim ${first} & last char after trim is: ${last}`);
+ 
+
+var result=leading.split(' ');
+var words=result.length;
+
+console.log(` total words availables in :${words}`);
+ var result=leading.indexOf("good");
+ console.log(`Index of good is ${result}`);
+
+
+ var result=leading.slice(22);
+ console.log(` ${result}`);
+ console.log(`________________________________________________`);
+   var result= leading.endsWith("up");
+   console.log(` end with word is: ${result}`);
+
+   var result= leading.startsWith('Hey');
+   console.log(` start with string is 'Hey':   ${result}`);
+
+
+   
+
+}
+stringHandSon();
+console.log(`________________________________________________________`);
+
+var string="Hey Hi Virat Dude";
+var result=string.includes(" Hi");
+console.log(`${result} `);
+
+var result= string.charAt(10);
+console.log(` Index of char 10 is:  ${result}`);
+
+var words=string.split(' ');
+console.log(` Total No. of words is :${words}`);
+
+
 
 

@@ -140,3 +140,50 @@ console.log("After Swap is",mahi,raina);
   swapValues(55,77);
   
 
+  console.log(`_______________No argument no Return Vlaue Revision----------------------`);
+
+
+
+
+var num =100;
+console.log(num);
+// Type of function NO argument no return values
+
+ var display=function(){
+    console.log(` I Am UI Developer `);
+
+
+}
+
+display();
+
+console.log( typeof display);
+
+console.log(`_____________________________________________`);
+// argument with no retuen value
+var add=function (num1,num2){
+
+var result=num1+num2;
+console.log(` addition is :${result}`);
+}
+add(20,40);
+console.log(`________________________________________________`);
+
+// Argument with return Value;
+
+var wordCount=function(word){
+
+  var words =word.split(" ");
+var wordCount= words.length
+  console.log(`  In Given string is :${word}`);
+
+return wordCount;
+
+}
+var result=wordCount("I am UI Developer");
+console.log(`Total word count is :${result}`);
+
+console.log(`_______________________________________`);
+//Anonymous Function;;;;;function without name
+
+

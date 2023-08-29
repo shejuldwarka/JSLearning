@@ -37,7 +37,16 @@ var name2 = "Anushka";
 
 swap(name1, name2);
 
+
+
+var show1=200;
+var show2= 300; 
+swap(show1,show2);
+
 console.log('End of program');
+
+console.log(`---------------------------------------`);
+
 var name1="Bilgates";
 var name2="Elon Musk";
 var numOne=100;
@@ -56,4 +65,6 @@ swapVariables(numOne,numTwo);//100 200
 swapVariables(name1,name2);
 swapVariables(fruitApple,fruitMango);
 
+
+console.log(`-----------------F----------`);
 

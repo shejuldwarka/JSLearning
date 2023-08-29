@@ -10,9 +10,9 @@ console.log(`--------------------STEP2---------------------------------------`);
 var result = string.length
 console.log(`    Length of string is : ${result}     `);
 console.log(`-----------------------------STEP3-----------------------------`);
-var lending=string.trim();
-var newString=lending.length;
-console.log(`Removing leading and trailing extra spaces of string:${lending} ,and it's length is:${newString}`);
+var leading=string.trim();
+var newString=leading.length;
+console.log(`Removing leading and trailing extra spaces of string:${leading} ,and it's length is:${newString}`);
 
 
 console.log(`---------------------STEP4------------------------------------------------------`);
@@ -27,29 +27,29 @@ var count=startSpaces+endSpaces;
 console.log(`Total number extra spaces count that is remove step 3:${count}`);
 
 console.log(`--------------------------------STEP5-----------------------------`);
-var first=lending.charAt(0);
-var last=lending.charAt(newString-1);
+var first=leading.charAt(0);
+var last=leading.charAt(newString-1);
 console.log(`first  charater after trim:${first}, Last  charater after trim: ${last}`);
 
 console.log(`--------------------------------------------------STEP6----------------------------`);
-var result =lending.split(' ');
+var result =leading.split(' ');
 var words = result.length;
 console.log(`Total number of words are : ${words}`);
 
 console.log(`--------------------------------STEP7--------------------------------------------`);
-var result=lending.indexOf("good");
+var result=leading.indexOf("good");
 console.log(`Index of ${"good"} word from string ${result}`);
 console.log();
 
 console.log(`------------------------------------STEP8-------------------------------------`);
-var result=lending.slice(22);
+var result=leading.slice(22);
 console.log(`substring starting from index 22: ${result}`);
 
 console.log(`-----------------------------------STEP9------------------------`);
-var end=lending.endsWith(`up`);
+var end=leading.endsWith(`up`);
 console.log(`String end with word ${'up'}: ${end}`);
 console.log(`------------------------------------STEP10--------------------------------`);
-var start=lending.startsWith('Hey');
+var start=leading.startsWith('Hey');
 console.log(`String start with word ${'Hey'}:${start}`);
 
 
@@ -58,10 +58,3 @@ console.log(`String start with word ${'Hey'}:${start}`);
 
 stringHandsOn();
 
-console.log(`----------`);
-var str ="I am UI Developer";
-str=str.includes("UI");
-console.log(str);
-
-var words=str.split("UI");
-console.log(words);
