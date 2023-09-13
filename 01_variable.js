@@ -88,3 +88,24 @@ var age=32// declartion & initialization
 
  var isMarried='False' //declaration & initialization
  console.log(isMarried);
+
+
+
+ console.log(`____________________________`);
+
+var pin=431211;
+console.log(pin);
+console.log(typeof pin);
+console.log(`_______________________________`);
+var fullname=" dwarka ganesh shejul";
+console.log(fullname);
+console.log(typeof fullname);
+console.log(`_________________________________`);
+var isGraduate= true;
+console.log(isGraduate);
+console.log(typeof isGraduate);
+
+console.log(`___________________________`);
+var bankName='SBI Bnak'
+console.log(bankName);
+console.log(typeof bankName);

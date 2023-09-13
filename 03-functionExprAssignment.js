@@ -143,6 +143,40 @@ console.log(` Character at indext 6 is: ${charAt11}`);
 }
 strOperation();
 
+console.log(`____________________________`);
+var num=100;
+console.log(num);
+//no argument no return value
+ var display=function(){
+   console.log(` I am UI developer !`);
+   console.log(typeof display);
+ }
+display();
+console.log(`___Argument with no return value______`);
+var add=function (num1,num2){
+  var result= num1+num2;
+  console.log(` Addition is :${result}`);
+
+}
+add(40,20);
+
+
+// argument with retun value
+var wordCount=function(word){
+
+var words=word.split(" ");
+
+var wordCount=words.length;
+console.log(`In given string =${word}`);
+return wordCount;
+}
+var result=wordCount("I am UI Developer");
+ console.log(`${result}`);
+
+
+ 
+ 
+
 
 
 

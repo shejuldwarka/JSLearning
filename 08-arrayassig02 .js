@@ -19,5 +19,11 @@ console.log(`Given Last Element is:${LastNumberElementLength}`);
 let thirdLastElement=arrayNumbers.splice
 
 
+console.log(`__________________________________________________________`);
+const arrayFruits=["Orange","Apple","Mango","WaterMelon"];
+var firstE1=["Orange","waterMelon"];
+
+console.log(`${firstE1}`);
+
 
 

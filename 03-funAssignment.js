@@ -97,3 +97,18 @@ var result=greet.replace('o','O');
 console.log(result);
 console.log(`-----------------------------`);
 
+console.log(`_______________________________________`);
+ var wordCount=function(word){
+  var words=word.split(" ");
+  var wordCount=words.length;
+console.log(` word count is ${word}`);
+return wordCount;
+
+ }
+
+ console.log(`______________________________________________`);
+ function show(){
+   console.log(`I love Leaning to javascript`);
+
+ }
+ show();

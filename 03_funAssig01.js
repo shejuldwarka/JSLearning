@@ -67,6 +67,46 @@ console.log(result);
 
 
 
+console.log(`______________________________`);
+function display(){
+  console.log(" I love to learning js");
+}
+display();
+console.log(`____________________________________`);
+
+function personalDetails(FirstName,lastName,collegeName){
+  console.log('FirstName','Dwarka');
+  console.log('LastName','Shejul');
+  console.log('CollegeName','VNMKVP');
 
 
-  
+}
+personalDetails();
+console.log(`_________________________`);
+function swapValues(num1,num2){
+  console.log('Before swapping:',' values',num1, 'Values',num2);
+temp=num1;
+num1=num2;
+num2=temp;
+ console.log('Before swapping:',' values',num1, 'Values',num2)
+}
+swapValues(100,200);
+swapValues('Virat','Anushka');
+swapValues(57,89);
+console.log(`______________________________________`);
+function threeValues(ag1,ag2,ag3){
+var result= ag1+ag2+ag3;
+console.log(`${result}`);
+
+}
+threeValues(10.23,600,40);
+threeValues("Hello","Good","Morning");
+console.log(`____________________________`);
+function bankDetails(bankName,accountNum,location,pinCode){
+console.log("BankName",bankName,"AccountNum",accountNum,"Location",location,"pinCode",pinCode);
+
+}
+bankDetails("CITI Bank",3456782345,"Pune",431202);
+bankDetails("Axis Bank",7891234568,"Mumbai",425103);
+bankDetails("HDFC Bank",2345678954,"pune",631202,"Open");
+

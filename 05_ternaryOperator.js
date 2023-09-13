@@ -7,18 +7,12 @@ var num= 50 ;
 var result=num%2 ==0 ? "EVEN"  : "ODD";
 console.log(result);
 
+var num1=21;
 
+var result= num1%2==0 ? "EVEN" : "ODD";
+console.log( result);
 
+var num2=15;
+result=num2%3==0 ? "EVEN":"ODD"
 
-
-console.log(`-----------------------------`);
-function squareOfWordLength(){
-var word="JavaScript";
-var wordLength=word.length;
-console.log(`find the length:${wordLength}`);
-
-}
-squareOfWordLength("JavaScript");
-squareOfWordLength("");
-squareOfWordLength("");
 

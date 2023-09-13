@@ -96,10 +96,81 @@ console.log(`in given string wordCount  is :${wordCount}`);
 var square = 7*7;
 console.log(`Square of string is : ${square}`);
 
-
-
-
+var word=string.split(" ");
+result=string.lenght
+console.log(` Total No. of words is :${result}`);
 
 }
 
 strOperation();
+
+
+
+console.log(`_________________________________________`);
+var square=function (num1){
+   var result=num1*num1;
+   console.log(`${result}`);
+}
+square(6)
+console.log(typeof square);
+
+var rectangular=function(length,width){
+  rectArea=length*width;
+  result=499*917;
+  console.log(` rectangular is: ${result} `);
+}
+rectangular();
+
+console.log(`__________Swap Vlaues_____________`);
+swapValues2=function(mahi,raina){
+
+  console.log('Before Swapping is :',mahi,raina);
+
+  var temp=mahi
+
+var mahi=raina;
+
+ var raina=temp;
+ console.log('After Swapping  is :',mahi,raina);
+
+}
+swapValues2(mahi,raina);
+swapValues2(55,77);
+swapValues2(11,33);
+console.log(`__________________________________`);
+
+
+var strOperation=function(){
+ var string ="Js the most popular language of internet";
+ var result=string.length;
+console.log( `string length is : ${result}`);
+
+var charAt=string.charAt(7)
+console.log(`Character at index 7th is : ${charAt}`);
+
+var charAt12=string.charAt(12);
+console.log(`find char 12 from string is =${charAt12}`);
+var charAtLast=string.charAt(string.length-1)
+console.log(` Last index property is : ${charAtLast}`);
+var charAtFirst=string.charAt(0);
+console.log(`firs tChart at index is : ${charAtFirst}`);
+var charThirdlast=string.charAt(string.length-3);
+console.log(` third last cha index is :${charThirdlast}`);
+var words=string.split(' ');
+wordCount=words.length
+console.log(` find total no. of word is :${wordCount}`);
+var result=7*7;
+console.log(`sqaure of word is 7 is square :${result}`);
+
+}
+strOperation("Js the most popular language of internet");
+
+
+
+
+
+
+
+
+
+
