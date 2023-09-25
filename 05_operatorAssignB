@@ -1,4 +1,342 @@
+var myName = "Dwarka"; //Variable declaration and initialization
+var myName = "Dwaraka Shejul"; //re-declaration allowed
+myName = "Dwaraka Shejul"; //update
 
+console.log(`${myName}`);
+
+let collegeName = "VNMKP";
+collegeName = "VNMKP PUNE"; // re-declaration not allowed
+//update allowed
+
+const PI = 3.14;
+
+//pI= 3.1412 // update not allowed
+
+//scope ==Accessibility
+let age = 25;
+if (age == 25) {
+  var city = "pune";
+  // console.log(` city ${city}`);
+}
+console.log(` city ${city}`);
+function show() {
+  var country = "India";
+  let age = 25;
+  if (age == 25) {
+    let city = "pune";
+    // console.log(` city ${city}`);
+  }
+}
+
+// console.log(` city ${city}`);
+
+console.log(`_____________ Factorial.js ___________`);
+// 5! = 5 * 4 * 3 * 2 * 1
+let factorial = 1; //5
+for (let index = 5; index >= 1; index--) {
+  // index=5 4 3 2 1
+  factorial = factorial * index; // 120*1
+}
+console.log(`factorial ${factorial}`);
+
+console.log(`_________________________________________________________`);
+// 0! = 1
+
+function factorialNum(num) {
+  if (num == 0) {
+    console.log(`factorial of zero is 1`);
+    return;
+  }
+
+  let factorial = 1; //5
+  for (let index = num; index >= 1; index--) {
+    // index=5 4 3 2 1
+    factorial = factorial * index; // 120*1
+  }
+  console.log(`factorial ${factorial}`);
+}
+factorialNum(5);
+factorialNum(7);
+factorialNum(9);
+factorialNum(0);
+
+num1 = 20;
+num2 = "gk";
+let result = (num1 = +num2);
+console.log(result);
+
+var pin = "202";
+result = +pin;
+console.log(`result is ${result} `);
+
+console.log(`__________________________IF BLOCK.JS_________________________`);
+var num = 23;
+if (num % 2 == 0) {
+  console.log(` ${num} is even`);
+} else {
+  console.log(` ${num} is odd`);
+}
+console.log(`________________________________________`);
+
+function voteEligibility(age, name) {
+  if (age <= 0) {
+    console.log(`${name} you age ${age} is invalid`);
+    return;
+  }
+
+  if (age >= 18) {
+    console.log(`${name} you are eligible for vote`);
+  } else {
+    console.log(`${name} you are not eligible for vote`);
+  }
+}
+//voteEligibility(23,"jenny");
+voteEligibility(-20, "jenny");
+
+console.log(`____________________________________________`);
+var num = 23;
+
+if (num > 30) {
+  console.log(num);
+}
+
+console.log(`After if block`);
+
+var num = 23;
+
+if (num % 2 == 0) {
+  console.log(`${num} is even`);
+} else {
+  console.log(`${num} is odd`);
+}
+
+function voteEligibility(age, name) {
+  // if block to handle all invalid scenarios
+
+  var ageValue = +age;
+
+  if (age <= 0 || isNaN(ageValue) || age > 120) {
+    console.log(`${name} your age ${age} is invalid`);
+  } else {
+    // if block to handle all valid scenarios
+
+    if (age >= 18) {
+      console.log(`${name} you are eligible for vote`);
+    } else {
+      console.log(`${name} you are not eligible for vote`);
+    }
+  }
+}
+
+voteEligibility(23, "Jenny");
+
+voteEligibility(-20, "Jenny");
+
+voteEligibility("UK", "Jenny");
+
+voteEligibility("30", "Jenny");
+
+voteEligibility(null, "Jenny");
+
+voteEligibility(undefined, "Jenny");
+
+voteEligibility(150, "Jenny");
+
+console.log(
+  `_________________________assignement if else grade for js------------------`
+);
+
+var voteEligibility = function (age) {
+  var ageValue = +age;
+  if (age <= 0 || isNaN(ageValue) || age > 130) {
+    console.log(`  ${age} invalid data`);
+    return;
+  } else {
+  }
+  if (age >= 18) {
+    console.log(`  eligible for vote`);
+  } else {
+    console.log(` not eligible for vote`);
+  }
+};
+voteEligibility(45);
+voteEligibility(17);
+voteEligibility(20);
+voteEligibility(8);
+voteEligibility(0);
+voteEligibility(-10);
+voteEligibility(200);
+voteEligibility(null);
+voteEligibility(undefined);
+
+console.log(
+  `________________________OB Function block assignment_______________`
+);
+
+function show(num) {
+  if (num % 2 == 0) {
+    console.log(` ${num} is EVEN`);
+  } else {
+    console.log(` ${num} is ODD`);
+  }
+}
+
+show(45);
+show(70);
+show(67);
+show(98);
+console.log(`__________________________________________________`);
+
+function person(age) {
+  if (age <= 0) {
+    console.log(`${age} Is Invalid data`);
+  } else {
+    if (age >= 18) {
+      console.log(`${age} Eligible For vote`);
+    } else {
+      console.log(`${age}  Not Eligible For vote`);
+    }
+  }
+}
+person(17);
+person(18);
+person(20);
+person(40);
+person(0);
+console.log(`____________________`);
+
+function display(char) {
+  var str = "JavaScript-ES6";
+  var char = str.length;
+  console.log(`${char}`);
+  if (char >= 10) {
+    console.log(
+      ` ${char} is in this given string more than 10 char is available`
+    );
+  } else {
+    console.log(
+      ` ${char} is in this given string not  more than 10 char is available`
+    );
+  }
+}
+display();
+
+console.log(`____________Switch CaseMonth 06 Assignment _________________ `);
+
+function monthOfYear(monthNumber) {
+  switch (monthNumber) {
+    case 1:
+      console.log(`${monthNumber} jan`);
+      break;
+    case 2:
+      console.log(`${monthNumber} Feb`);
+      break;
+    case 3:
+      console.log(`${monthNumber} March`);
+      break;
+    case 4:
+      console.log(`${monthNumber} April`);
+      break;
+      case 5:
+        console.log(`${monthNumber} May`);
+        break;
+  
+    case 6:
+      console.log(`${monthNumber} June`);
+      break;
+    case 7:
+      console.log(`${monthNumber} July`);
+      break;
+    case 8:
+      console.log(`${monthNumber} August`);
+      break;
+    case 9:
+      console.log(`${monthNumber} Sep`);
+      break;
+
+    case 10:
+      console.log(`${monthNumber} Octo`);
+      break;
+    case 11:
+      console.log(`${monthNumber} Nov`);
+      break;
+    case 12:
+      console.log(`${monthNumber} Dec`);
+      break;
+
+    default:
+      console.log(`${monthNumber} invalid Input`);
+      break;
+  }
+}
+monthOfYear(0);
+monthOfYear(2);
+monthOfYear(5);
+monthOfYear(12);
+monthOfYear(15);
+monthOfYear(100);
+monthOfYear(null);
+monthOfYear(undefined);
+
+console.log(`_____________File_06 MarrageEligibility__________`);
+
+function MarrageEligibility(gender,age){
+var female= +age
+  
+if (gender==female || age>=18) {
+
+    console.log(` ${gender} ${female} hey congratulation you eligible for marrage`);
+} else {
+  var male= +age
+
+if (gender==male || age>=21) {
+
+  console.log(`${gender} ${male} hey congratulation you eligible for marrage`);
+
+}
+console.log(`${gender} ${male} hey  you not eligible for marrage`);
+
+}
+
+}
+MarrageEligibility("male",17)
+
+
+
+console.log(`_____________________________Leap Year__________________________________`);
+
+
+
+var leapYear=function (year){
+if (year==0  ) {
+  console.log(` ${year} is a leap year`);
+
+} else {
+  console.log(` ${year} is  not a leap year`);
+
+}
+}
+leapYear(2000);
+console.log(`_________________________FOR LOOP .Js________________________`);
+// 5 to 20
+for (let index = 5; index <=20; index++) {
+  console.log(index);;
+  
+}
+
+console.log(`_________________________________________`);
+for (let index = 10; index >=1; index--) {
+  console.log(index);
+  
+}
  
+for (let index = 5; index <=50; index=index+5) {
+  console.log(index);;
+  
+}
 
 
+
+
+
+  
