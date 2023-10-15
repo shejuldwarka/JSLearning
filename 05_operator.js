@@ -423,3 +423,4 @@ for (let index = 0; index < array.length; index++) {
 wordCount();
 
 reverseWord("Hello how are you doing")
+

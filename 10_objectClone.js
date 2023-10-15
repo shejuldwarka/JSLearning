@@ -61,3 +61,30 @@ studentBill.fullName = "Billgates";
 console.log(` Elon Details: ${studentElon.fullName} `);
 
 console.log(` Bill Details: ${studentBill.fullName}`);
+
+
+
+// created shallow clone :
+let studentJenny={
+  fullName: 'Jenny billgate',
+  age: 25,
+  city: " Jalna",
+  college: "VNMKVP"
+}
+
+let studentDwaraka=studentJenny;
+console.log(studentJenny);
+
+
+studentElon=studentElon;// shallow  clonning
+//use object.assign({}, source code)
+let StScience=studentElon.marks.science=78;
+console.log(StScience);
+
+
+
+
+console.log(`________________shallow clone __________________`);
+
+
+

@@ -1,0 +1,51 @@
+
+let studentDwarka={
+    fullName: "dwarka Shejul",
+    Age:23,
+    college: "vnmkvp",
+    city:" pune",
+    marks:{
+physic:99,
+math:89,
+science: 100
+    }
+}
+
+let studentAnju=Object.assign({}, studentDwarka);//deep clone
+studentAnju.fullName="Anju Rana";
+studentAnju.marks.science=98,
+
+console.log(`Dwarka Details: ${studentDwarka.fullName}`);
+console.log(`Anju Details: ${studentAnju.fullName} ,`);
+
+console.log(`Deep clone using spread operatror`);
+let studentBill={...studentDwarka};
+
+studentBill.fullName="Bill Gate";
+
+
+console.log(`dwarka Details: ${studentDwarka.fullName}`);
+console.log(`__________________________________________`);
+console.log(`bill Details: ${studentBill.fullName}`);
+
+
+// create netsted  object
+let jenny={
+    fullName: "jenny mehta",
+    Age:23,
+    college: "vnmkvp",
+    city:" pune",
+    marks:{
+
+physic:99,
+math:89,
+science: 100
+
+    }
+}
+
+ let maria=JSON.parse(JSON.stringify(jenny));
+ maria.marks.math=99;
+console.log(` jenny Details:${jenny.marks.math}`);
+console.log(` maria Details:${maria.marks.math}`);
+

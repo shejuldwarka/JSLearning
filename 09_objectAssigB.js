@@ -3,7 +3,7 @@ let sbiBank={
     location: "near By shivaji Nagar pune",
     accountName:"36580745830",
     ifscCode:"ICIC3576",
-    interestRate:"11.5%",
+    interestRate:"9",
 
     showDetails: {
 
@@ -45,6 +45,8 @@ let hdfcBank={
     accountName:"975580745830",
     ifscCode:"hdfc35709",
     interestRate:"9.5%",
+    
+
     
     showDetails:{
         BnakName:"HDFC Bank",

@@ -172,3 +172,80 @@ voteEligibility(0);
 voteEligibility(19);
 voteEligibility(-10);
 voteEligibility(150);
+console.log(`___________Array Assignment 18__________`);
+const arrayFruits=["Banana","Orange","Apple","Mango","Water Melon"];
+arrayFruitsLength=arrayFruits.length;
+console.log(arrayFruitsLength);
+firstElement=arrayFruits[0];
+lastElement=arrayFruits[arrayFruitsLength-1];
+console.log(`${firstElement} & ${lastElement}`);
+console.log(`_______________________________`);
+arrayFruits.unshift("papaya")
+console.log(arrayFruits);
+console.log(`____________________________________________`);
+var removedE=arrayFruits.splice(4, 1);
+console.log(arrayFruits);
+console.log(removedE);
+console.log(`______________________________________`);
+arrayFruits.push('Pineapple')
+console.log(arrayFruits);
+console.log(`____________________________________`);
+
+arrayFruits.splice(4, 0, "Dragon Fruit")
+console.log(arrayFruits);
+
+console.log(`______________________________Replace element orange or Kiwi________________`);
+arrayFruits.splice( 2, 0,"Kiwi")
+console.log(arrayFruits);
+
+console.log(`___________________________________________`);
+arrayFruits.splice(1, 4);
+console.log(arrayFruits);
+console.log();
+
+
+console.log(`________________Array Concatination______________________`);
+let array1=[1,2,3,4,5];
+let array2=[9,8,7,0,6];
+array3=array1.concat(array2);
+console.log(array3);
+console.log(`__________Join method we can join with ,,A etc depend on u`);
+
+ result =array1.join("|");
+console.log(result);
+
+console.log(`_____________________For OF loop_______________________`);
+
+for (const element of array3) {
+    console.log(element);
+
+}
+
+console.log(`______Resize Array____--`);
+let array4=[4,5,6,7,8,9];
+array4.length=3
+console.log(array4);
+
+console.log(`_________________spread operator...(rest parameter)__________`);
+let array5=[4,5,6,7,8,9];
+console.log(array5);
+console.log(...array5);
+
+console.log(`________SET.JS_____________________`);
+
+const person={
+    name:" dwarka",
+    age: 32,
+    college: "VNMKVP",
+    city : "pune",
+
+
+}
+Object.freeze(person)
+person.city=" pune"
+console.log(person);
+person.name="suni;"
+
+console.log(person);
+
+ 

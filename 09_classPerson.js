@@ -55,8 +55,10 @@ class Student {
   for (const student of array) {
   
       student.show();
-      student.rollNo
+      student.rollN
   
   }
   
-  
+  console.log(`______________________________Date  Topic -session 15__________`);
+console.log(a);
+ var a =12;

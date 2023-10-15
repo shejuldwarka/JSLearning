@@ -88,7 +88,7 @@ for (let index = 0; index < string.length; index++) {
     var char=string.charAt(index);
 
     if (char=="a" || char=="e" ||char=="i"||char=="o"|| char=="u"
-        ||char=="A"|| char=="E"||char== "I"|| char=="0") {
+        ||char=="A"|| char=="E"||char== "I"|| char=="O") {
         
   console.log(char);
   count ++;
@@ -123,4 +123,134 @@ function oddPositionedChars(givenstring) {
     }
 }
 oddPositionedChars("Hardwork always pays back");
+
+
+
+
+console.log(`____________________Jump statement.js__________________`);
+
+for (let index = 0; index < 10; index++) {
+
+    console.log(`Iteration Start`);
+
+    if (index==5) {
+
+        break;
+
+    }
+
+    console.log(`Value is ${index}, Iteration ${index+1}`);
+
+    console.log(`Iteration End`);
+
+    console.log(`--------------------------`);
+
+}
+
+ 
+
+console.log(`------------------------------ continue-- ----------------------------------------`);
+
+for (let index = 0; index < 5; index++) {
+
+    console.log(`Iteration Start`);
+
+    if (index==3) {
+
+        continue;
+
+    }
+
+    console.log(`Value is ${index}, Iteration ${index+1}`);
+
+    console.log(`Iteration End`);
+
+    console.log(`-----------------------------------------------------------------`);
+
+}
+
+
+console.log(`___________07_scope.js_____________________________`);
+                     
+var city;
+var city; // Variable Declaration
+
+let street;
+
+const pin = 443211;
+
+city = "Pune";
+
+street = "Wakad Road";
+
+// pin = "445578"; // Not allowed
+
+ 
+
+var city; // variable re Declaration
+
+// let street; // variable re Declaration not allowed
+
+ 
+
+if(true) {
+
+    var namePlayer = "Virat";
+
+    let salary = 45000;
+
+    const runs = 33000;
+
+}
+
+console.log(namePlayer);
+
+//console.log(salary);
+
+// console.log(runs);
+
+ 
+
+function show(){
+
+    var college = "COEP";
+
+    let matches = 500;
+
+    const won = 450; 
+
+}
+
+// console.log(college);
+
+// console.log(matches);
+
+// console.log(won);
+
+ 
+
+function display(){
+
+    console.log(`Inside function`);
+
+    let isMarried = true;
+
+    if (isMarried) {
+
+        let greet =  "Good Morning";
+
+        const PI = 3.1412;
+
+        console.log(); 
+
+    }
+
+    // console.log(PI);
+
+    // console.log(greet);
+
+}
+
+display();
+
 

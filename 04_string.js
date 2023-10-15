@@ -284,3 +284,14 @@ console.log(` Total No. of words is :${words}`);
 
 
 
+
+function VowelCount(str){
+
+    let char=str.CharAt(0);
+    console.log(char);
+  }
+  VowelCount("I am very good UI Developer");
+  
+  
+
+
